@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Example App
+Bundle-SymbolicName: com.example.app;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: BioBam Bioinformatics S.L.
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: com.biobam.blast2go.api.action;bundle-version="1.0.0",
+ com.biobam.blast2go.api.job;bundle-version="1.0.0",
+ com.biobam.blast2go.api.wizard,
+ com.biobam.blast2go.api.gui;bundle-version="1.0.0",
+ com.biobam.blast2go.api.datatype.basics;bundle-version="1.0.0",
+ com.biobam.blast2go.api.dataviewer.interfaces;bundle-version="2.0.0"

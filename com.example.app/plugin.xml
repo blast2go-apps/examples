@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.biobam.blast2go.action.extension">
+      <client
+            class="com.example.app.action.ExampleAction">
+      </client>
+   </extension>
+   <extension
+         point="com.biobam.blast2go.api.dataviewer.interfaces.controller">
+      <client
+            class="com.example.app.dataviewer.controllers.ExampleControlerCreator">
+      </client>
+   </extension>
+   <extension
+         point="com.biobam.blast2go.api.datatype.definition.extension">
+      <client
+            class="com.example.app.data.ExampleObjectCreator">
+      </client>
+   </extension>
+
+</plugin>

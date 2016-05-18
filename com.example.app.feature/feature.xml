@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.example.app.feature"
+      label="Example App"
+      version="1.0.0.qualifier"
+      provider-name="BioBam Bioinformatics S.L.">
+
+   <description url="http://www.example.com/description">
+      This is an example App.
+This App makes use of many different options of the Blast2GO API It can be used as a template to create new Apps. The Example App creates a new menu item in Blast2GO, its wizard asked for some dummy parameters, its associated Job executes a command line. THe Job has a progress bar and prints some application messages. Finally a HTML result viewer and a generic table view are shown.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="com.example.app"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
